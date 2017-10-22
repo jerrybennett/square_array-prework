@@ -6,6 +6,7 @@ def square_array(array)
   return arr
 end
 
+#added new test to test the .collect
 def square_array2(array)
  return array.collect { |num| num ** 2 }
 end
